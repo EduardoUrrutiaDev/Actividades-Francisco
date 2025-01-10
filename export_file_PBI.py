@@ -301,11 +301,11 @@ asunto.clear()
 asunto.send_keys("Este es el asunto del correo")
 
 
-# time.sleep(15)
-elemento = WebDriverWait(driver, 30).until(
-    EC.element_to_be_clickable((By.XPATH, "//div[@id=':wn']"))
-)
-elemento.click()
+time.sleep(15)
+#elemento = WebDriverWait(driver, 30).until(
+#    EC.element_to_be_clickable((By.XPATH, "//div[@id=':wn']"))
+#)
+#elemento.click()
 
 #click Enviar correo
 boton_enviar = WebDriverWait(driver, 30).until(
