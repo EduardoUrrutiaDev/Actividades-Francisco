@@ -52,7 +52,7 @@ driver.get("https://app.powerbi.com/groups/me/reports/d58a7dff-8a48-4b7a-ae23-7d
 # Digitación de correo
 username = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[id='email']")))
 username.clear()
-username.send_keys("eduardo.urrutia@lindcorp.pe")
+username.send_keys("")
 
 # Botón de enviar
 button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[id='submitBtn']"))).click()
@@ -60,7 +60,7 @@ button = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELE
 # Digitación de contraseña
 password = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='passwd']")))
 password.clear()
-password.send_keys("Lindcorp2024*")
+password.send_keys("")
 
 # Botón de iniciar sesión
 buttonSignIn = WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.ID, "idSIButton9"))).click()
@@ -255,7 +255,7 @@ driver.get("https://accounts.google.com/v3/signin/identifier?continue=https%3A%2
 # Digitación de correo
 username = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[id='identifierId']")))
 username.clear()
-username.send_keys("eduardo.urrutia@lindcorp.pe")
+username.send_keys("")
 
 #Siguiente
 button = WebDriverWait(driver, 10).until(
@@ -267,7 +267,7 @@ password_field = WebDriverWait(driver, 30).until(
     EC.element_to_be_clickable((By.NAME, "Passwd"))
 )
 password_field.clear()
-password_field.send_keys("Benjamin250624")
+password_field.send_keys("")
 
 #Ingresar
 button = WebDriverWait(driver, 10).until(
