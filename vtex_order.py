@@ -30,8 +30,8 @@ conn = http.client.HTTPSConnection("aruma.vtexcommercestable.com.br")
 headers = {
     'Accept': "application/json",
     'Content-Type': "application/json",
-    'X-VTEX-API-AppKey': "vtexappkey-aruma-JQNDJP",
-    'X-VTEX-API-AppToken': "FNPCORCOOINCLDJNIIMNXHTHIOTIDKKACWXLHLMNSUXZPGVNHDGFJAGXUITZYUKEYMAPGYGXWYUCJTRCTGAADERBPZQYRMOYJTBCGFGJXJJKFDOAQRFRTKATVYZHHHFJ"
+    'X-VTEX-API-AppKey': "",
+    'X-VTEX-API-AppToken': ""
 }
 
 # Realizar la solicitud GET con los parámetros
@@ -78,8 +78,8 @@ def obtener_datos_ordenes(order_ids):
     headers = {
         'Accept': "application/json",
         'Content-Type': "application/json",
-        'X-VTEX-API-AppKey': "vtexappkey-aruma-JQNDJP",
-        'X-VTEX-API-AppToken': "FNPCORCOOINCLDJNIIMNXHTHIOTIDKKACWXLHLMNSUXZPGVNHDGFJAGXUITZYUKEYMAPGYGXWYUCJTRCTGAADERBPZQYRMOYJTBCGFGJXJJKFDOAQRFRTKATVYZHHHFJ"
+        'X-VTEX-API-AppKey': "",
+        'X-VTEX-API-AppToken': ""
     }
     
     resultados = []  # Lista para almacenar los objetos con los datos
