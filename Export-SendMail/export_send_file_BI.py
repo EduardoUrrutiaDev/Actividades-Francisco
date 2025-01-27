@@ -78,7 +78,7 @@ button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELE
 # Digitación de contraseña
 password = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, "input[name='passwd']")))
 password.clear()
-password.send_keys("Lindcorp2024*")
+password.send_keys("******")
 
 #Botón de iniciar sesión
 buttonSignIn = WebDriverWait(driver, 40).until(EC.element_to_be_clickable((By.ID, "idSIButton9"))).click()
@@ -135,10 +135,10 @@ print(f"Archivo descargado: {downloaded_file}")
 
 
 #Configuracion
-EMAIL_SENDER = "multifuncional@lindcorp.pe"
+EMAIL_SENDER = "********************"
 EMAIL_RECEIVER = "francisco.esparza@lindcorp.pe"
 EMAIL_ALIAS = "reportes.diario@lindcorp.pe"
-EMAIL_PASSWORD = "Lind#T4mb#23"
+EMAIL_PASSWORD = "**********"
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 OUTPUT_DIR = os.path.join(DOWNLOAD_FOLDER, "images")
