@@ -40,15 +40,21 @@ Esto realizará todo el proceso automáticamente.
 📂 ReporteBackus 
 
 │── 📂 repository
+
 │   └── db_connection.py        # Conexion con la base de datos
 
-│── 📂 services  
+│── 📂 services 
+
 │   └── data_extractor.py  # Extraer data del procedimiento almacenado
+
 │   └── email_sender.py  # Enviar el archivo excel por correo
+
 │   └── excel_generator.py  # Generar el excel con la data
 
 │── 📂 utils  
+
 │   └── date_range.py  # Obtener rango de fechas del mes anterior
+
 │   └── date_today.py  # Obtener fecha actual
 
 │── .env                 # Archivo de variables de entorno
