@@ -10,6 +10,7 @@ Este proyecto es una automatización que realiza las siguientes tareas:
 1. Convierte la data obtenida en un archivo Excel.
 1. Envía el archivo Excel por correo mediante Gmail.
 
+
 **Guía de usuario**
 
 Ejecutar el script principal:
@@ -17,6 +18,7 @@ Ejecutar el script principal:
 	python main.py
 
 Esto realizará todo el proceso automáticamente.
+
 
 **Guía de instalación**
 
@@ -60,6 +62,7 @@ Esto realizará todo el proceso automáticamente.
 │── .env                 # Archivo de variables de entorno
 
 │── main.py              # Script principal
+
 
 **Consideraciones**
 
