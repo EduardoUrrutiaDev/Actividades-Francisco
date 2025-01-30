@@ -1,4 +1,4 @@
-**Automatización de Reportes Mensuales de Backus ![Python Version]![License][Python Version]**
+**Automatización de Reportes Mensuales de Backus**
 
 **Descripción y contexto**
 
