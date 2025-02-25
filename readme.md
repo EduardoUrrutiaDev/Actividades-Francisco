@@ -24,7 +24,7 @@ Esto realizará todo el proceso automáticamente.
 
 **Requisitos**
 
-- Python 3.12
+-Python 3.12
 - Instalar las siguientes librerias : 
   - pandas (para manejar datos y generar el archivo Excel)
   - pyodbc y sqlalchemy (para trabajar con base de datos)
